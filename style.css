@@ -1,5 +1,5 @@
 body {
-  background-color: pink;
+  background-color: #E7D5E4;
   color: black
 }
 /* Add a black background color to the top navigation */
@@ -20,7 +20,7 @@ body {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #E7D5E4;
+  background-color: #pink;
   color: black;
 }
 
