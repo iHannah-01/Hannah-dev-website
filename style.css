@@ -1,13 +1,6 @@
 body {
   background-color: #E7D5E4;
   color: black
-    .p1 {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.p2 {
-  font-family: "Lucida Console", "Courier New", monospace;
-}
 
 }
 /* Add a black background color to the top navigation */
@@ -88,9 +81,5 @@ body {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
-}
-
-.h1 {
-  font-family: "Arial", Arial, sans-serif;
 }
 
