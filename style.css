@@ -1,6 +1,14 @@
 body {
   background-color: #E7D5E4;
   color: black
+    .p1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.p2 {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
 }
 /* Add a black background color to the top navigation */
 .topnav {
@@ -86,10 +94,3 @@ body {
   font-family: "Arial", Arial, sans-serif;
 }
 
-.p1 {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.p2 {
-  font-family: "Lucida Console", "Courier New", monospace;
-}
