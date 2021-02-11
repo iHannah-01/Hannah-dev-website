@@ -1,4 +1,5 @@
-head{ font-family: 'Poppins', sans-serif;
+head { font-family: 'Poppins', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 }
 body {
   background-color: #E7D5E4;
