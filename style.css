@@ -47,7 +47,7 @@ body {
   margin: 0; /* Important for vertical align on mobile phones */
 }
 
-/* Add a red background color to navbar links on hover */
+/* Add a pink background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
   background-color: #F058AC;
 }
@@ -72,9 +72,9 @@ body {
   text-align: left;
 }
 
-/* Add a grey background color to dropdown links on hover */
+/* Add a black background color to dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: #333;
 }
 
 /* Show the dropdown menu on hover */
