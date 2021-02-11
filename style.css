@@ -1,9 +1,8 @@
-font-family: 'Poppins', sans-serif;
 
 body {
   background-color: #E7D5E4;
   color: black
-
+font-family: 'Poppins', sans-serif;
 }
 /* Add a black background color to the top navigation */
 .topnav {
