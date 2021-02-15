@@ -99,8 +99,23 @@ body {
 	  right: 10px;
 	  
 	  bottom: 40px;
-
-	  
 	 
-
 }
+.button {
+	background-color: #333; /* Green */
+	border: none;
+	color: white;
+	padding: 10px 190px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+  }
+  .button:hover {
+	background-color: #f058ac;
+	color: white;
+	box-shadow: 0 9px 16px 0 rgba(0,0,0,0.24), 0 10px 20px 0 rgba(0,0,0,0.19);
+  }
