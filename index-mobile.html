@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="mobilestyle.css">
+
+</head>
+<body>
+
+<!-- Simulate a smartphone / tablet -->
+<div class="mobile-container">
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="#home">my dev website</a>
+  <div id="myLinks">
+    <a href="index-mobile.html" class="active">home</a>
+    <a href="about-mobile.html">About</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div style="padding-left:16px">
+  <h1>Welcome to my dev website</h1>
+  <h2> about me</h2>
+  <p> hi my name is Hannah, i'm a beginner web developer, youtuber, a student and i am 19
+    you can found out more about me <br/>
+    <button class= "button" onclick="location.href='https://hanna-slack.editorx.io/digital-portfolio2/about-me'">here</button>
+
+    <br/> or you can view my new about me page (which is in the works) <br/>
+    <button class= "button" onclick="location.href='about.html'">here</button>
+    
+  </p>
+  <img src="./images/IMG_2982.jpeg" draggable="false" style="width:400px; height:350px;"/>
+
+  <footer class= "footer">
+    <p> copyright hannah 2021
+    </footer>
+</div>
+
+<!-- End smartphone / tablet look -->
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+</body>
+</html>
+  
+</body>
+
+</html>
