@@ -9,7 +9,7 @@
     
 </head>
 
-<body>
+<body onload="websiteloading()">
   <div class="topnav">
     <a> my dev website</a>
      <a class="active" href="https://hannahcodes.co.uk/">Home</a>
@@ -86,7 +86,7 @@
     <footer class= "footer">
       <p> copyright hannah 2021   <a href="index-mobile.html">Mobile view</a>
       </footer>
-</body>
+
 <script>function websiteloading() {
   if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
       // true for mobile device
@@ -97,4 +97,5 @@
     }
   }
 </script>
+ </body onload="websiteloading()">
 </html>
