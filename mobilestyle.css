@@ -79,6 +79,19 @@ body {
 	float: left;
 	overflow: hidden;
 }
+.h2nav {
+  background-color: #333; /* Green */
+      border: none;
+      color: white;
+      padding: 10px 190px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+}
 
 /* Dropdown button */
 .dropdown .dropbtn {
