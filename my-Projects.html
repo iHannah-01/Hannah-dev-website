@@ -5,13 +5,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="style.css"/>
-   <title>Hannah Dev Website</title>
    <link rel="icon" href="IMG_3609.JPEG">
+   <title>Hannah Dev Website</title>
+   <script src="javascript.js"></script>
  
 </head>
  
  <body onload="websiteloading()"> 
-  <div class="header2"></div>
+  <div class="header2">
     <h1>My Dev Website</h1>
     
     <div clss="topnav-right">
@@ -28,7 +29,7 @@
         </div>
         <div class="column">
           <h3>Dev</h3>
-          <a href="my-Projects.html">My Projects</a>
+          <a class="active" href="my-Projects.html">My Projects</a>
         <a href="https://twitter.com/hannah_codes">Dev Twitter</a>
         <a href="https://github.com/iHannah-01">Github</a>
         </div>
@@ -64,18 +65,22 @@
 </div>
 </div>
 </div>
-  <h1> you have received a 404 error</h1>
-   <h1> sorry the page you were trying find is either not avalible, has been moved or you've typed in the wrong url</h1>
-   <h1> return home 
-     <button class= "button" onclick="location.href='index.html'">here</button>
-    </h1>
+   <h1> My Projects </h1>
+   <p>here is a showcase of all that i have been or that i am currently working on </p>
+   <h2> my Dev website</h2>     
+   <img src="images/mywebsitev3.jpeg" draggable="false" style="width:1010px; height:650px;"/>
+       
    <footer class= "footer">
+      
+    <button class ="buttondm" onclick="location.href='myprojects-mobile.html'">mobile view</button>
+     <br/
     <p> copyright hannah 2021
-    </footer>
+    
+  </footer>
     <script>function websiteloading() {
       if(/Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
           // true for mobile device
-          location.href="/404-mobile.html";
+          location.href="/myprojects-mobile.html";
         }else{
          
         }
@@ -83,7 +88,6 @@
       
 
     </script>
- </body onload="websiteloading()">
-
+     </body onload="websiteloading()">
 
 </html>

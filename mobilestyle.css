@@ -1,0 +1,115 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e7d5e4;
+  }
+  
+  .mobile-container {
+    max-width: 480px;
+    margin: auto;
+    background-color: #e7d5e4;
+    height: 800px;
+    color: black;
+    border-radius: 5px;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background: rgb(35,12,51);
+background: linear-gradient(90deg, rgba(35,12,51,1) 0%, rgba(136,52,157,1) 100%);
+    position: relative;
+    color: white;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+    background: #333;
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 13px 15px;
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    
+    display: block;
+    position: absolute;
+    margin-top: 8px;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav a:hover {
+    background-color: #34065a;
+    color: white;
+  }
+  
+  .active {
+    background-color: #34065a;
+    color: white;
+  }
+  .button {
+      background-color: #333; /* Green */
+      border: none;
+      color: white;
+      padding: 10px 180px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+    }
+    .button:hover {
+      background-color: #34065a;
+      color: white;
+      box-shadow: 0 9px 16px 0 rgba(0,0,0,0.24), 0 10px 20px 0 rgba(0,0,0,0.19);
+    }
+    .footer {
+      text-align: center;
+      background-color: #333;
+       padding: 1px;
+     border-radius: -2%;
+       font-size: 18px;
+       color: white
+  
+    }
+    /* The dropdown container */
+.dropdown {
+	float: left;
+	overflow: hidden;
+}
+.h2nav {
+  
+  background-color: #333;
+  color: white;
+  
+  font-display: 2px;
+      border: none;
+      
+      padding: 15px 50%;
+      text-align: centre;
+      text-decoration: none;
+      
+      font-size: 20px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      border-radius: 1px;
+}
+
+@media (prefers-color-scheme: dark) {
+	body .mobile-container {
+	  background-color: #222222;
+	  color: white;
+	}
+}
+@media (prefers-color-scheme: dark) {
+	body {
+	  background-color: #222222;
+	  color: white;
+	}
+}

@@ -5,13 +5,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="style.css"/>
-   <title>Hannah Dev Website</title>
    <link rel="icon" href="IMG_3609.JPEG">
+   <title>Hannah Dev Website</title>
+   <script src="javascript.js"></script>
  
 </head>
  
  <body onload="websiteloading()"> 
-  <div class="header2"></div>
+  <div class="header2">
     <h1>My Dev Website</h1>
     
     <div clss="topnav-right">
@@ -35,12 +36,12 @@
         <div class="column">
           <h3>socials</h3>
           <a href="https://twitter.com/iHannah_01">Twitter</a>
-          <a href="https://www.instagram.com/iHannah_01"> Instagram</a>
+          <a href="https://www.instagram.com/iHannah_01">Instagram</a>
           <a href="https://www.linkedin.com/in/ihannah-01/">Linkedin</a>
         </div>
           <div class="column">
           <h3>Minecraft</h3>
-          <a href="minecraft.html">Minecraft</a>
+          <a class="active" href="minecraft.html">Minecraft</a>
         </div>
            <div class="column">
           <h3>Youtube</h3>
@@ -64,25 +65,26 @@
 </div>
 </div>
 </div>
-  <h1> you have received a 404 error</h1>
-   <h1> sorry the page you were trying find is either not avalible, has been moved or you've typed in the wrong url</h1>
-   <h1> return home 
-     <button class= "button" onclick="location.href='index.html'">here</button>
-    </h1>
-   <footer class= "footer">
-    <p> copyright hannah 2021
-    </footer>
-    <script>function websiteloading() {
-      if(/Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-          // true for mobile device
-          location.href="/404-mobile.html";
-        }else{
-         
-        }
-      }
+   <h1> About My Minecraft sever </h1>
+   <p> Hi welcome to My Minecraft Server... 
+        </p>
+        <footer class= "footer">
       
-
-    </script>
+          <button class ="buttondm" onclick="location.href='minecraft-mobile.html'">mobile view</button>
+           <br/
+          <p> copyright hannah 2021
+          
+        </footer>
+          <script>function websiteloading() {
+            if(/Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+                // true for mobile device
+                location.href="/minecraft-mobile.html";
+              }else{
+               
+              }
+            }
+           
+          </script>
  </body onload="websiteloading()">
 
 

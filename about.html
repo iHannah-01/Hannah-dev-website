@@ -5,13 +5,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="style.css"/>
-   <title>Hannah Dev Website</title>
    <link rel="icon" href="IMG_3609.JPEG">
+   <title>Hannah Dev Website</title>
+   <script type="text/javascript" src="javascript.js"></script>
  
 </head>
  
  <body onload="websiteloading()"> 
-  <div class="header2"></div>
+  
+  <div class="header2">
     <h1>My Dev Website</h1>
     
     <div clss="topnav-right">
@@ -24,7 +26,7 @@
         <div class="column">
           <h3>Home</h3>
           <a  href="index.html">Home</a>
-          <a href="about.html">About</a>
+          <a class="active" href="about.html">About</a>
         </div>
         <div class="column">
           <h3>Dev</h3>
@@ -35,7 +37,7 @@
         <div class="column">
           <h3>socials</h3>
           <a href="https://twitter.com/iHannah_01">Twitter</a>
-          <a href="https://www.instagram.com/iHannah_01"> Instagram</a>
+          <a href="https://www.instagram.com/iHannah_01">Instagram</a>
           <a href="https://www.linkedin.com/in/ihannah-01/">Linkedin</a>
         </div>
           <div class="column">
@@ -64,26 +66,43 @@
 </div>
 </div>
 </div>
-  <h1> you have received a 404 error</h1>
-   <h1> sorry the page you were trying find is either not avalible, has been moved or you've typed in the wrong url</h1>
-   <h1> return home 
-     <button class= "button" onclick="location.href='index.html'">here</button>
-    </h1>
-   <footer class= "footer">
-    <p> copyright hannah 2021
-    </footer>
-    <script>function websiteloading() {
-      if(/Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-          // true for mobile device
-          location.href="/404-mobile.html";
-        }else{
-         
-        }
-      }
+   <h1> About Me </h1>
+   <p> hi my name is Hannah, i'm 19 years old and I live in Andover.
+
+       I am Currently studying Level 3 IT, Level 3 Creative Media and GCSE maths and english at Andover college 
+       
+       I am a young carer and I am currently employed as a bar support staff at Cameo & Vinyl Andover nightclub, a Repem staff at B&M Andover and as a learning technology coach at Andover College. 
+
+       I am also a beginner web developer and a Youtuber 
+        
+       
+       <h1>My Hobbies</h1>
+       
+        I am very interested in computer Technology with a particular interest in video/computer games, photography and I also enjoy watching and making YouTube videos in my spare time (which you can view about in the Youtube tab)
+
+        
+       
+       ​</p>
+       <footer class= "footer">
       
+        <button class ="buttondm" onclick="location.href='about-mobile.html'">mobile view</button>
+         <br/
+        <p> copyright hannah 2021
+        
+      </footer>
+       
+        <script>function websiteloading() {
+          if(/Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+              // true for mobile device
+              location.href="/about-mobile.html";
+            }else{
+             
+              
+            }
+          }
+         
 
-    </script>
- </body onload="websiteloading()">
-
+        </script>
+         </body onload="websiteloading()">
 
 </html>
