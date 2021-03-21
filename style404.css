@@ -1,0 +1,498 @@
+body {
+	 background-image: url('404background8.jpg');
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	
+}
+.header2 {
+  padding: 13px;
+  text-align: left;
+  box-shadow: 5px 5px 5px grey;
+  background: rgb(35,12,51);
+background: linear-gradient(90deg, rgba(35,12,51,1) 0%, rgba(136,52,157,1) 100%);
+  color: white;
+  font-size: 16px;
+display: block;
+margin-top: auto;
+}
+
+.text404{
+	margin-left: 2%;
+}
+/* Navbar container */
+.navbar {
+	float: right;
+  overflow: hidden;
+  background-color: rgb(255,209,247);
+background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48%, rgba(198,0,212,1) 100%);
+  font-family: 'Poppins', sans-serif;
+}
+.imgdisplay{
+	display: flex;
+	background-color: rgb(240, 201, 225);
+	padding-left: 0.7%;
+}
+.imgdisplay2{
+	display: flex;
+	background-color: rgb(218, 199, 247);
+	padding-left: 0.7%;
+}
+.hometext {
+	padding-left: 0.7%;
+	float: left;
+	margin-left: -97%;
+	margin-top: 10px;
+}
+.hometext2 {
+	padding-left: 0.5%;
+	float: right;
+	margin-left:20%;
+	margin-top: 10px;
+}
+.picrew {
+	width:450px; height:450px;
+	padding: 0.7%;
+	
+	margin-left: 73%;
+	
+}
+.picrew2 {
+	width:450px; height:450px;
+	padding: 0.7%;
+	
+	
+	
+}
+  
+.vl {
+	border-left: 1px solid rgba(12, 1, 19, 0);
+	height: 700px;
+	position: absolute;
+	left: 50%;
+	margin-left: -3px;
+	top: 245px;
+  }
+.footercrtext{
+	font-size: 20px;
+		margin-top: 150px;
+	width: 95%;
+		
+  }
+
+a {
+	text-decoration: none;
+}
+
+  
+  .space {
+	padding: 2px;
+	  background-color: #DEE4E7;
+	  box-shadow: 5px 5px 5px grey;
+  }
+  .imgpfp {
+	  border-radius: 50%;
+	  border-color: inherit;
+	  display: inline-block;
+	  padding: 2%;
+	  width: 9%;
+	 height:8%;
+	  text-decoration: none;
+  }
+.pfpnamemc {
+		display: inline-block;
+		text-align: left;
+		padding: 1.2%;
+		font-size: 14;
+		
+  
+	}  
+	.pfpname {
+		display: inline-block;
+		text-align: center;
+		
+		padding: 4.7%;
+		
+		
+  
+	}
+	.hometext {
+		padding-left: 0.7%;
+	}
+.abouttext {
+		padding-left:  0.7%;
+	padding-bottom: 0.2%;
+	}
+  .pfpnamer2 {
+		display: inline-block;
+		text-align: center;
+		
+		
+	  padding-left: 5%;
+}
+.pfpnamer3 {
+		display: inline-block;
+		text-align: center;
+		
+		
+	  padding-left: 11.5%;
+}
+.pfpnamer4 {
+		display: inline-block;
+		text-align: center;
+		
+		
+	  padding-left: 10%;
+}
+ .pfptext {
+		text-align: center;
+		color: white;
+		top: 20;
+  }
+  .pfptext2 {
+	text-align: center;
+	color: black;
+	top: 20;
+}
+  .imgpfp:hover {
+		box-shadow: 0 10px 30px 0 #DEE4E7, 0 10px 30px rgb(234, 0, 255);
+  }
+
+
+  
+
+/* Links inside the navbar */
+.navbar a {
+	
+	
+  font-size: 16px;
+  color: black;
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.menuimg{
+	border-radius: 50%;
+}
+/* Dropdown button */
+.dropdown .dropbtn {
+	font-size: 16px;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 1px 1px;
+	background-color: inherit;
+	
+	position: absolute;
+	  float: none;
+	  text-align: right;
+	text-align: center;
+	  left: 95%;
+	  top: 2%;
+
+/* Add a red background color to navbar links on hover */
+}.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #88349d;
+  top: 10x;
+  
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #230c33;
+  width: 100%;
+  padding: 1px;
+  left: 0;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+  top: auto;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 10%;
+ 
+  padding: 30px;
+  background-color:  #230c33;
+  height: 300px;
+
+}
+.columnfooter {
+	float: left;
+	width: 10%;
+   display: block;
+   padding: 10px;
+	background-color: inherit;
+	height: 100px;
+	margin-top: -30px;
+	text-align: left;
+	
+  }
+
+/* Style links inside the columns */
+.column a {
+  float: none;
+  color: white;
+  padding: 12px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  
+}
+/* Style links inside the columns */
+.columnfooter a {
+	
+	color: black;
+	padding: 8px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+	font-size: 12px;
+  }
+
+/* Add a background color on hover */
+.column a:hover {
+  background-color: #34065a;
+}
+/* Add a background color on hover */
+.columnfooter a:hover {
+	background-color: #dcc0f3;
+  }
+
+
+
+/* Add a black background color to dropdown links on hover */
+.dropdown-content a:hover {
+	background-color: #5f3e7a
+}
+
+.active {
+	background-color: #5f3e7a;
+}
+
+.footer {
+	text-align: center;
+	background-color:#DEE4E7;
+	height: 270px;
+	 padding:12px;
+	 font-size: 18px;
+	 bottom: 60px;
+	 color: black;
+
+	 
+
+  }
+  .termtext {
+	  padding-left: 0.7%;
+	  padding-right: 0.7%;
+  }
+  .aside {
+	  
+	  position: absolute;
+	  float: right;
+	  right: 10px;
+	  
+	  bottom: -100px;
+	 
+}
+.button {
+	background-color: #ffffff; /* Green */
+	border: none;
+	color: black;
+	padding: 10px 180px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	margin-top: 60px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+  }
+  .button:hover {
+	background-color: #34065a;
+	color: white;
+	box-shadow: 0 9px 16px 0 rgba(0,0,0,0.24), 0 10px 20px 0 rgba(0,0,0,0.19);
+  }
+  @media only screen and (max-width: 1500px) {
+	  /* Dropdown button */
+.dropdown .dropbtn {
+	font-size: 16px;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 1px 1px;
+	background-color: inherit;
+	
+	position: absolute;
+	  float: none;
+	  text-align: right;
+	text-align: center;
+	  left: 92%;
+	  top: 2.3%;
+	}
+	.imgdisplay{
+		display: flex;
+		background-color: rgb(240, 201, 225);
+		padding-left: 0.5%;
+	}
+	.hometext {
+		padding-left: 0.5%;
+		float: left;
+		margin-left: -97%;
+		margin-top: 10px;
+	}
+	  .hometext2 {
+	padding-left: 0.5%;
+	float: right;
+	margin-left:10%;
+	margin-top: 10px;
+}
+	.picrew {
+		width:440px; height:440px;
+		padding: 0.5%;
+		
+		margin-left: 64%;
+		
+	}
+	
+	.imgpfp {
+	width:8%; height:8%;
+	text-decoration: none;
+	}
+	.pfpname {
+		display: inline-block;
+		text-align: center;
+		
+		padding: 3.5%;
+		
+		
+  
+	}
+  }
+  @media (prefers-color-scheme: dark) {
+	body {
+	  background-image: url('404background9.jpg');
+		
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+		
+	  color: white;
+	  box-shadow: #000;
+	}
+	.imgdisplay{
+		display: flex;
+		background-color: rgb(72, 40, 99);
+		padding-left: 0.7%;
+	}
+	.imgdisplay2{
+		display: flex;
+		background-color: rgb(56, 46, 71);
+		padding-left: 0.7%;
+	}
+	.hometext {
+		padding-left: 0.7%;
+		float: left;
+		margin-left: -97%;
+		margin-top: 10px;
+		
+	}
+		.imgpfp:hover {
+		background-color: #00000000;
+		color: black;
+		box-shadow: 0 10px 30px 0 #333, 0 10px 30px rgb(235, 50, 164);
+		border-radius: 50%;
+	  }
+	.header2 {
+		padding: 13px;
+		text-align: left;
+		box-shadow: 5px 5px 5px #000;
+		background: rgb(35,12,51);
+	  background: linear-gradient(90deg, rgba(35,12,51,1) 0%, rgba(136,52,157,1) 100%);
+		color: white;
+		font-size: 16px;
+	  display: block;
+	  margin-top: auto;
+	  }
+	.space {
+		opacity: 100%;
+		padding: 2px;
+		background-color: #333;
+		box-shadow: 5px 5px 5px rgb(0, 0, 0);
+	}
+   .pfptext {
+		  text-align: center;
+		  color: white;
+	}
+	.pfptext2 {
+		text-align: center;
+		color: white;
+  }
+	.button {
+		background-color: #333; /* Green */
+		border: none;
+		color: white;
+		padding: 10px 180px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 20px;
+		margin-top: 60px;
+		margin-bottom: 10px;
+		border-radius: 5px;
+	  }
+	  .button:hover {
+		background-color: #34065a;
+		color: white;
+		box-shadow: 0 9px 16px 0 rgba(0,0,0,0.24), 0 10px 20px 0 rgba(0,0,0,0.19);
+	  }
+	
+	  .buttondm:hover {
+		background-color: #34065a;
+		padding: 1px;
+		color: white;
+		box-shadow: 0 9px 9px 0 rgba(0,0,0,0.24), 0 10px 20px 0 rgba(0,0,0,0.19);
+	  }
+    .columnfooter a {
+	
+		color: white;
+		padding: 8px;
+		text-decoration: none;
+		display: block;
+		text-align: left;
+		font-size: 12px;
+	  }
+	  .columnfooter a:hover {
+		background-color: #34065a;
+	  }
+	.footer {
+			text-align: center;
+			background-color: #333;
+			height: 270px;
+			 padding:12px;
+			 font-size: 18px;
+			 bottom: 60px;
+			 color: white
+		
+			 
+		
+		  }
+	}
+     
+
