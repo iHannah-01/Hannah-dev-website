@@ -1,0 +1,256 @@
+body {
+	background-color: #e7d5e4;
+	color: black;
+	font-family: "Poppins", sans-serif;
+	margin: 0;
+}
+.header {
+	padding: 13px;
+	text-align: left;
+	box-shadow: 5px 5px 5px grey;
+	background: rgb(35, 12, 51);
+	background: linear-gradient(
+		90deg,
+		rgba(35, 12, 51, 1) 0%,
+		rgba(136, 52, 157, 1) 100%
+	);
+	color: white;
+	font-size: 16px;
+	display: block;
+	margin-top: auto;
+}
+
+
+.menu_img {
+	border-radius: 50%;
+	margin-right: 9%;
+}
+/* Dropdown button */
+.dropdown .dropbtn {
+	font-size: 16px;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 1px 1px;
+	background-color: inherit;
+
+	position: absolute;
+	float: none;
+	text-align: right;
+	text-align: center;
+	left: 93%;
+	top: 2%;
+
+	/* Add a red background color to navbar links on hover */
+}
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+	background-color: inherit;
+	top: 10x;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #230c33;
+	width: 100%;
+	padding: 1px;
+	left: 0;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+	display: block;
+	top: auto;
+}
+/* Add a black background color to dropdown links on hover */
+.dropdown-content a:hover {
+	background-color: #5f3e7a;
+}
+
+.active {
+	background-color: #5f3e7a;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+	float: left;
+	width: 10%;
+
+	padding: 30px;
+	background-color: #230c33;
+	height: 300px;
+}
+/* Style links inside the columns */
+.column a {
+	float: none;
+	color: white;
+	padding: 12px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+/* Add a background color on hover */
+.column a:hover {
+	background-color: #5f3e7a;
+}
+.space {
+	padding: 2px;
+	background-color: #dee4e7;
+	box-shadow: 5px 5px 5px grey;
+}
+
+
+.space_text {
+	text-align: center;
+	color: black;
+	top: 20;
+}
+.text {
+	text-align: left;
+	color: black;
+	margin-left: 8px;
+}
+
+.mc_pic{	
+	float: left;
+	display: block;
+	width: 40%;
+	margin: 20px;
+	border: 6px solid #000;
+	
+	 
+	
+	
+
+}
+
+
+
+
+.footer {
+	text-align: center;
+	background-color: #dee4e7;
+	height: 270px;
+	padding: 12px;
+	font-size: 18px;
+	bottom: 60px;
+	color: black;
+}
+.footer_text {
+	font-size: 20px;
+	margin-top: 150px;
+	width: 95%;
+}
+.column_footer {
+	float: left;
+	width: 10%;
+	display: block;
+	padding: 10px;
+	background-color: inherit;
+	height: 100px;
+	margin-top: -30px;
+	text-align: left;
+}
+
+
+/* Style links inside the columns */
+.column_footer a {
+	color: black;
+	padding: 8px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+	font-size: 12px;
+}
+
+
+/* Add a background color on hover */
+.column_footer a:hover {
+	background-color: #dcc0f3;
+}
+
+@media only screen and (max-width: 1500px) {
+	/* Dropdown button */
+	.dropdown .dropbtn {
+		font-size: 16px;
+		border: none;
+		outline: none;
+		color: white;
+		padding: 1px 1px;
+		background-color: inherit;
+
+		position: absolute;
+		float: none;
+		text-align: right;
+		text-align: center;
+		left: 92%;
+		top: 2.3%;
+	}
+	
+
+}
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: #222222;
+		color: white;
+		box-shadow: #000;
+	}
+	.text {
+		text-align: left;
+		color: white;
+		margin-left: 8px;
+	}
+	
+	.header {
+		padding: 13px;
+		text-align: left;
+		box-shadow: 5px 5px 5px #000;
+		background: rgb(35, 12, 51);
+		background: linear-gradient(
+			90deg,
+			rgba(35, 12, 51, 1) 0%,
+			rgba(136, 52, 157, 1) 100%
+		);
+		color: white;
+		font-size: 16px;
+		display: block;
+		margin-top: auto;
+	}
+	.space {
+		padding: 2px;
+		background-color: #333;
+		box-shadow: 5px 5px 5px rgb(0, 0, 0);
+	}
+	
+	.space_text {
+		text-align: center;
+		color: white;
+	}
+	
+
+	.footer {
+		text-align: center;
+		background-color: #333;
+		height: 270px;
+		padding: 12px;
+		font-size: 18px;
+		bottom: 60px;
+		color: white;
+	}
+	.column_footer a {
+		color: white;
+		padding: 8px;
+		text-decoration: none;
+		display: block;
+		text-align: left;
+		font-size: 12px;
+	}
+	.column_footer a:hover {
+		background-color: #34065a;
+	}
+	
+}
