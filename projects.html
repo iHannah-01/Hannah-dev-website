@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="charset" content="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=0.86, maximum-scale=5.0, minimum-scale=0.86"
+		/>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link rel="icon" href="/assets/images/IMG_3609.JPEG" />
+		<title>Hannah Codes Website (beta)</title>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="/assets/css/loading.css" />
+		
+	</head>
+
+	<body onload="websiteloading()">
+		<div class="loader"></div>
+		<h1> Website loading....</h1>
+
+				<script>
+					
+   setTimeout(function() {
+    if (/Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+	navigator.userAgent)) {
+		location.href = "/lang/en/Projects.html";
+     }
+    else {
+		location.href = "/lang/en/Projects.html"
+    }
+  }, 3000);
+   
+					
+				</script>
+		
+	</body>
+</html>
